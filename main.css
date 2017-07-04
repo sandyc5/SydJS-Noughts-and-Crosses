@@ -1,0 +1,44 @@
+html,body{height:100%;}
+
+
+body {
+	text-align: center;
+	background-color:#DEDEDE;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.square {
+	float: left;
+	height: 96%;
+	width: 31.3%;
+	padding: 1%;
+	border-radius: 2px;
+	font-size: 30px;
+	margin: 5px;
+	border: 5px solid #3A9349;
+	box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.column {
+	display: inline-block;
+  height: 33%;
+  width: 100%
+}
+
+.square:hover {
+	background-color: #888888;
+}
+
+#grid {
+	width: 106%;
+  height: 160%;
+  max-height: 500px;
+  max-width: 500px;
+  background-color: none;
+  border-spacing:0;
+  margin: 0 auto;
+}
